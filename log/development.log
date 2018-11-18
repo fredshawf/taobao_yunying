@@ -1,0 +1,256 @@
+Started GET "/abc/123/345" at 2018-10-16 23:49:54 +8
+Completed 200 OK in 33ms
+
+Started GET "/favicon.ico" at 2018-10-16 23:49:54 +8
+Completed 404 Not Found in 5ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:25:27 +8
+Completed 304 Not Modified in 377ms
+
+Started GET "/favicon.ico" at 2018-10-17 22:25:27 +8
+Completed 404 Not Found in 5ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:27:06 +8
+Completed 304 Not Modified in 13ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:27:13 +8
+Completed 200 OK in 346ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:27:14 +8
+Completed 200 OK in 11ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:27:27 +8
+Completed 200 OK in 345ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:27:48 +8
+Completed 200 OK in 342ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:30:26 +8
+Completed 304 Not Modified in 478ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:31:28 +8
+Completed 304 Not Modified in 495ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:32:45 +8
+Completed 304 Not Modified in 384ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:34:10 +8
+Completed 304 Not Modified in 521ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:35:25 +8
+Completed 304 Not Modified in 485ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:36:28 +8
+Completed 304 Not Modified in 21ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:38:10 +8
+Completed 304 Not Modified in 14ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:38:48 +8
+Completed 304 Not Modified in 357ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:39:32 +8
+Completed 304 Not Modified in 14ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:39:38 +8
+Completed 304 Not Modified in 10ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:40:05 +8
+Completed 304 Not Modified in 10ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:40:32 +8
+Completed 304 Not Modified in 8ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:43:36 +8
+Completed 304 Not Modified in 9ms
+
+Started GET "/abc/123/345" at 2018-10-17 22:43:50 +8
+Completed 304 Not Modified in 349ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:44:00 +8
+Completed 200 OK in 13ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:45:06 +8
+Completed 304 Not Modified in 17ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:47:37 +8
+[object Object]
+Completed 304 Not Modified in 14ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:47:53 +8
+[object Object]
+Completed 304 Not Modified in 11ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:48:37 +8
+method,options,timeout,cancelOnTimeout,bindings,__knexQueryUid,sql
+Completed 304 Not Modified in 9ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:49:00 +8
+select `users`.* from `users` limit ?
+Completed 304 Not Modified in 10ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:51:35 +8
+{"method":"select","options":{},"timeout":false,"cancelOnTimeout":false,"bindings":[1],"__knexQueryUid":"9f96527c-a1c7-4ad1-990a-2624feca1251","sql":"select `users`.* from `users` limit ?"}
+Completed 304 Not Modified in 17ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:52:41 +8
+Completed 500 Internal Server Error in 8ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:53:14 +8
+	[object Object]
+Completed 200 OK in 7ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:53:25 +8
+	select `users`.* from `users` limit ?
+Completed 304 Not Modified in 9ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:57:41 +8
+  [1m[35mSQL (0.2ms)[0mselect `users`.* from `users` limit ?
+Completed 304 Not Modified in 386ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:58:06 +8
+  [1m[35mSQL (0.2ms)[0m select `users`.* from `users` limit ?
+Completed 304 Not Modified in 16ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:59:14 +8
+  [1m[35mSQL (0.2ms)[0m select `users`.* from `users` limit ?1
+Completed 304 Not Modified in 15ms
+
+Started GET "/abc/123/34" at 2018-10-17 22:59:35 +8
+  [1m[35mSQL (0.2ms)[0m select `users`.* from `users` limit ? | 1
+Completed 304 Not Modified in 10ms
+
+Started GET "/abc/123/34" at 2018-10-17 23:00:37 +8
+  [1m[35mSQL (0.2ms)[0m select `users`.* from `users` limit ? [1]
+Completed 304 Not Modified in 9ms
+
+Started GET "/abc/123/34" at 2018-10-17 23:22:52 +8
+  [1m[35mSQL (0.2ms)[0m select `users`.* from `users` limit ? [1]
+Completed 304 Not Modified in 13ms
+
+Started GET "/abc/123/34" at 2018-10-17 23:23:06 +8
+  [1m[35mSQL (0.2ms)[0m select `users`.* from `users` limit ? [1]
+  [1m[35mSQL (0.2ms)[0m select `users`.* from `users` limit ? [1]
+Completed 304 Not Modified in 425ms
+
+Started GET "/abc/123/34" at 2018-10-17 23:23:25 +8
+  [1m[35mSQL[0m select `users`.* from `users` limit ? [1]
+  [1m[35mSQL[0m select `users`.* from `users` limit ? [1]
+Completed 304 Not Modified in 20ms
+
+Started GET "/session/code_image" at 2018-10-23 22:13:23 +8
+Completed 500 Internal Server Error in 33ms
+
+Started GET "/abc" at 2018-10-23 22:13:30 +8
+Completed 500 Internal Server Error in 3ms
+
+Started GET "/favicon.ico" at 2018-10-23 22:13:30 +8
+Completed 500 Internal Server Error in 1ms
+
+Started GET "/abc" at 2018-10-23 22:14:24 +8
+Completed 200 OK in 15ms
+
+Started GET "/favicon.ico" at 2018-10-23 22:14:24 +8
+Completed 404 Not Found in 12ms
+
+Started GET "/abc" at 2018-10-23 22:14:49 +8
+Completed 304 Not Modified in 15ms
+
+Started GET "/abc" at 2018-10-23 22:15:16 +8
+Completed 304 Not Modified in 13ms
+
+Started GET "/abc" at 2018-10-23 22:15:40 +8
+Completed 500 Internal Server Error in 23ms
+
+Started GET "/abc" at 2018-10-23 22:16:04 +8
+Completed 500 Internal Server Error in 21ms
+
+Started GET "/abc" at 2018-10-23 22:16:34 +8
+  Parameters: {"abc":"123"}
+Completed 200 OK in 14ms
+
+Started POST "/abc" at 2018-10-23 22:18:01 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/Users/fred/projects/qt/koa-template/public/upload/upload_c161be35932f3a4dd78c802c7f482e79.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:18:01.574Z"}}
+Completed 200 OK in 11ms
+
+Started POST "/abc" at 2018-10-23 22:24:00 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/Users/fred/projects/qt/koa-template/public/upload/upload_24fb10ea4dfba72f59c4b007642385bc.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:24:00.331Z"}}
+Completed 200 OK in 5ms
+
+Started POST "/abc" at 2018-10-23 22:24:24 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/Users/fred/projects/qt/koa-template/public/upload/upload_d67c7ed75bd7339c53f896cb7622eb9f.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:24:24.252Z"}}
+Completed 200 OK in 4ms
+
+Started POST "/abc" at 2018-10-23 22:24:39 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/Users/fred/projects/qt/koa-template/public/upload/upload_97973fbad10f219aaaa6bd39dc266515.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:24:39.468Z"}}
+Completed 200 OK in 3ms
+
+Started POST "/abc" at 2018-10-23 22:29:01 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_9f5628bd9ad1c85f5d6cbd46d930e8e0.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:29:01.719Z"}}
+Completed 200 OK in 26ms
+
+Started POST "/abc" at 2018-10-23 22:32:53 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_a2a4174accc904309418b264964943bb.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:32:53.952Z"}}
+Completed 200 OK in 29ms
+
+Started POST "/abc" at 2018-10-23 22:42:37 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_548d88b82365ce3e88b9e00325ff4b46.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:42:37.063Z"}}
+Completed 200 OK in 6ms
+
+Started POST "/abc" at 2018-10-23 22:43:03 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_05673f28360d319b1324cade9fe1d019.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:43:03.180Z"}}
+Completed 200 OK in 30ms
+
+Started POST "/abc" at 2018-10-23 22:50:47 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_049c3d2473a48ad4e5845ee6a2a56265.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:50:47.479Z"}}
+Completed 500 Internal Server Error in 19ms
+
+Started POST "/abc" at 2018-10-23 22:53:38 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_c3f8f590d888b76d2b33d94052b2a6dd.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:53:38.681Z"}}
+Completed 200 OK in 5ms
+
+Started POST "/abc" at 2018-10-23 22:53:54 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_6faebe245e2a681f77b9c701e8b7f472.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:53:54.689Z"}}
+Completed 200 OK in 3ms
+
+Started POST "/abc" at 2018-10-23 22:55:04 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_4d4af315a9c5ae5d0acaa92f3e7116a1.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:55:04.079Z"}}
+Completed 200 OK in 4ms
+
+Started POST "/abc" at 2018-10-23 22:55:18 +8
+  Parameters: {"aaa":"123","bbb":{"size":1283,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_2e51303c2f0a9683b7a876ea052ccd6f.txt","name":"offical.txt","type":"text/plain","mtime":"2018-10-23T14:55:18.785Z"}}
+Completed 200 OK in 5ms
+
+Started POST "/abc" at 2018-10-23 22:59:16 +8
+  Parameters: [object Object]
+Completed 200 OK in 23ms
+
+Started GET "/feng/application" at 2018-10-29 21:28:57 +8
+  Parameters: {}
+Completed 200 OK in 43ms
+
+Started GET "/favicon.ico" at 2018-10-29 21:28:57 +8
+  Parameters: {}
+Completed 404 Not Found in 8ms
+
+Started GET "/feng/application" at 2018-10-29 21:29:28 +8
+  Parameters: {}
+Completed 500 Internal Server Error in 7ms
+
+Started GET "/feng/application" at 2018-10-29 21:29:42 +8
+  Parameters: {}
+Completed 500 Internal Server Error in 6ms
+
+Started GET "/feng/application" at 2018-10-29 21:30:41 +8
+  Parameters: {"abc":"123"}
+Completed 200 OK in 40ms
+
+Started GET "/feng/application" at 2018-10-29 21:30:47 +8
+  Parameters: {"abc":"123"}
+Completed 500 Internal Server Error in 8ms
+
+Started GET "/feng/application" at 2018-10-29 21:31:46 +8
+  Parameters: {"abc":"123"}
+Completed 200 OK in 28ms
+
+Started GET "/feng/application" at 2018-10-29 21:31:52 +8
