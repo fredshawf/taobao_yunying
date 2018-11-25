@@ -11,7 +11,12 @@
     "s": "bin/server",
     "console": "bin/console",
     "c": "bin/console",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "g:migration:init": "if [ -d db/migrations ]; then echo 'done'; else mkdir db/migrations; mkdir db/seeds; fi",
+    "g:migration": "node_modules/.bin/knex-migrate --knexfile config/database.js generate",
+    "g:seed": "node_modules/.bin/knex --knexfile config/database.js --cwd ./ seed:make",
+    "db:migrate": "node_modules/.bin/knex-migrate --knexfile config/database.js",
+    "db:seed:run": "node_modules/.bin/knex --knexfile config/database.js --cwd ./ seed:run"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +26,9 @@
     "debug": "^3.2.2",
     "ejs": "^2.6.1",
     "knex": "^0.15.2",
+    "knex-migrate": "^1.7.0",
     "koa": "^2.5.2",
+    "koa-actionpack": "^1.0.0",
     "koa-body": "^4.0.4",
     "koa-bodyparser": "^4.2.1",
     "koa-conditional-get": "^2.0.0",
