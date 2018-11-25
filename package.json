@@ -22,6 +22,7 @@
   "license": "ISC",
   "dependencies": {
     "class-autoloader": "^1.0.3",
+    "co-body": "^6.0.0",
     "commander": "^2.18.0",
     "debug": "^3.2.2",
     "ejs": "^2.6.1",

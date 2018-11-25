@@ -254,3 +254,501 @@ Started GET "/feng/application" at 2018-10-29 21:31:46 +8
 Completed 200 OK in 28ms
 
 Started GET "/feng/application" at 2018-10-29 21:31:52 +8
+Started GET "/" at 2018-11-25 17:46:25 +8
+Completed 404 Not Found in 44ms
+
+Started GET "/favicon.ico" at 2018-11-25 17:46:25 +8
+Completed 404 Not Found in 2ms
+
+Started GET "/test" at 2018-11-25 17:46:31 +8
+Processing by TestController#index
+  Parameters: {}
+Completed 304 Not Modified in 10ms
+
+Started GET "/word_analysis" at 2018-11-25 17:53:33 +8
+Completed 404 Not Found in 23ms
+
+Started GET "/word_analysis/index" at 2018-11-25 17:54:06 +8
+Completed 404 Not Found in 5ms
+
+Started GET "/word_analysis/index" at 2018-11-25 17:54:46 +8
+Completed 404 Not Found in 2ms
+
+Started GET "/word_analysis/index" at 2018-11-25 17:54:52 +8
+Completed 404 Not Found in 21ms
+
+Started GET "/word_analysis/index" at 2018-11-25 17:54:53 +8
+Completed 404 Not Found in 2ms
+
+Started GET "/word_analysis/" at 2018-11-25 17:55:00 +8
+Completed 404 Not Found in 3ms
+
+Started GET "/word_analysis/" at 2018-11-25 17:55:49 +8
+Completed 404 Not Found in 3ms
+
+Started GET "/word_analysis" at 2018-11-25 17:55:52 +8
+Completed 404 Not Found in 2ms
+
+Started GET "/word_analysis" at 2018-11-25 17:55:58 +8
+Completed 404 Not Found in 21ms
+
+Started GET "/word_analysis" at 2018-11-25 17:56:39 +8
+Completed 404 Not Found in 22ms
+
+Started GET "/test" at 2018-11-25 17:57:03 +8
+Processing by TestController#index
+  Parameters: {}
+Completed 304 Not Modified in 29ms
+
+Started GET "/test" at 2018-11-25 17:59:26 +8
+Processing by TestController#index
+  Parameters: {}
+Completed 304 Not Modified in 24ms
+
+Started GET "/word_analysis" at 2018-11-25 17:59:37 +8
+Completed 404 Not Found in 6ms
+
+Started GET "/word_analysis" at 2018-11-25 18:02:15 +8
+Completed 404 Not Found in 26ms
+
+Started GET "/word_analysis" at 2018-11-25 18:05:49 +8
+Processing by WordAnalysisController#index
+  Parameters: {}
+Completed 200 OK in 29ms
+
+Started GET "/word_analysis" at 2018-11-25 18:09:34 +8
+Processing by WordAnalysisController#index
+  Parameters: {}
+Completed 200 OK in 5ms
+
+Started GET "/word_analysis" at 2018-11-25 18:12:38 +8
+Processing by WordAnalysisController#index
+  Parameters: {}
+Completed 304 Not Modified in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 18:12:41 +8
+Completed 415 Unsupported Media Type in 17ms
+
+Started POST "/word_analysis" at 2018-11-25 18:13:39 +8
+Completed 415 Unsupported Media Type in 3ms
+
+Started POST "/word_analysis" at 2018-11-25 18:14:07 +8
+Completed 415 Unsupported Media Type in 2ms
+
+Started GET "/word_analysis" at 2018-11-25 18:20:50 +8
+Processing by WordAnalysisController#index
+  Parameters: {}
+Completed 200 OK in 27ms
+
+Started POST "/word_analysis" at 2018-11-25 18:20:51 +8
+Completed 415 Unsupported Media Type in 15ms
+
+Started POST "/word_analysis" at 2018-11-25 18:21:14 +8
+Completed 415 Unsupported Media Type in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 18:23:40 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123","bbb":{"size":0,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_7f8825da1b2217d5cbdf809ce07a4481","name":"","type":"application/octet-stream","mtime":null}}
+Completed 200 OK in 13ms
+
+Started POST "/word_analysis" at 2018-11-25 18:24:27 +8
+Completed 415 Unsupported Media Type in 2ms
+
+Started GET "/word_analysis" at 2018-11-25 18:24:28 +8
+Processing by WordAnalysisController#index
+  Parameters: {}
+Completed 200 OK in 4ms
+
+Started GET "/word_analysis" at 2018-11-25 18:24:29 +8
+Processing by WordAnalysisController#index
+  Parameters: {}
+Completed 304 Not Modified in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 18:24:31 +8
+Completed 415 Unsupported Media Type in 2ms
+
+Started POST "/word_analysis" at 2018-11-25 18:25:44 +8
+Completed 415 Unsupported Media Type in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 18:26:35 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123","bbb":{"size":0,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_920305014f9a5ef146839b28fb6df8fe","name":"","type":"application/octet-stream","mtime":null}}
+Completed 200 OK in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 18:26:47 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123","bbb":{"size":0,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_576f44f325d761347554d9dc1e46f5d2","name":"","type":"application/octet-stream","mtime":null}}
+Completed 200 OK in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 18:27:17 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123","bbb":{"size":0,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_10c70c0bbe1d21b90082001d2d0202fc","name":"","type":"application/octet-stream","mtime":null}}
+Completed 200 OK in 7ms
+
+Started POST "/word_analysis" at 2018-11-25 18:28:00 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123","bbb":{"size":0,"path":"/var/folders/dc/mr8r2r6d107gpz993k4mwk8w0000gn/T/upload_71d835ae74ac1288a7545fcc1a4277b5","name":"","type":"application/octet-stream","mtime":null}}
+Completed 200 OK in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 18:28:15 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 8ms
+
+Started POST "/word_analysis" at 2018-11-25 18:28:47 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 18:29:35 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 3ms
+
+Started POST "/word_analysis" at 2018-11-25 18:30:32 +8
+Completed 415 Unsupported Media Type in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 18:32:05 +8
+Completed 415 Unsupported Media Type in 42ms
+
+Started GET "/word_analysis" at 2018-11-25 18:32:08 +8
+Processing by WordAnalysisController#index
+  Parameters: {}
+Completed 200 OK in 9ms
+
+Started GET "/word_analysis" at 2018-11-25 18:32:09 +8
+Processing by WordAnalysisController#index
+  Parameters: {}
+Completed 304 Not Modified in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 18:32:11 +8
+Completed 415 Unsupported Media Type in 3ms
+
+Started POST "/word_analysis" at 2018-11-25 18:32:17 +8
+Completed 415 Unsupported Media Type in 2ms
+
+Started POST "/word_analysis" at 2018-11-25 18:34:40 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 18:34:41 +8
+Completed 415 Unsupported Media Type in 3ms
+
+Started POST "/word_analysis" at 2018-11-25 18:40:27 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 32ms
+
+Started POST "/word_analysis" at 2018-11-25 18:44:16 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 18:44:26 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 14ms
+
+Started POST "/word_analysis" at 2018-11-25 18:48:12 +8
+Completed 415 Unsupported Media Type in 42ms
+
+Started POST "/word_analysis" at 2018-11-25 18:49:13 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 18:50:30 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 18:51:10 +8
+Completed 415 Unsupported Media Type in 39ms
+
+Started POST "/word_analysis" at 2018-11-25 18:52:05 +8
+Completed 415 Unsupported Media Type in 39ms
+
+Started POST "/word_analysis" at 2018-11-25 18:54:18 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 18:54:44 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 20:27:23 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 20:27:34 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 20:30:33 +8
+Completed 415 Unsupported Media Type in 43ms
+
+Started POST "/word_analysis" at 2018-11-25 20:30:51 +8
+Completed 415 Unsupported Media Type in 40ms
+
+Started POST "/word_analysis" at 2018-11-25 20:31:20 +8
+Completed 415 Unsupported Media Type in 39ms
+
+Started POST "/word_analysis" at 2018-11-25 20:32:24 +8
+Completed 415 Unsupported Media Type in 41ms
+
+Started POST "/word_analysis" at 2018-11-25 20:32:59 +8
+Completed 415 Unsupported Media Type in 46ms
+
+Started POST "/word_analysis" at 2018-11-25 20:33:44 +8
+Completed 415 Unsupported Media Type in 34ms
+
+Started POST "/word_analysis" at 2018-11-25 21:40:21 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 21:40:26 +8
+Completed 415 Unsupported Media Type in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 21:40:43 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 15ms
+
+Started POST "/word_analysis" at 2018-11-25 21:41:32 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 21:41:42 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 21:41:45 +8
+Completed 415 Unsupported Media Type in 2ms
+
+Started POST "/word_analysis" at 2018-11-25 21:41:52 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 3ms
+
+Started POST "/word_analysis" at 2018-11-25 21:42:33 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 31ms
+
+Started POST "/word_analysis" at 2018-11-25 21:42:56 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 32ms
+
+Started POST "/word_analysis" at 2018-11-25 21:43:20 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 30ms
+
+Started POST "/word_analysis" at 2018-11-25 21:45:24 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 29ms
+
+Started POST "/word_analysis" at 2018-11-25 21:45:52 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 32ms
+
+Started POST "/word_analysis" at 2018-11-25 21:46:14 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 29ms
+
+Started POST "/word_analysis" at 2018-11-25 21:46:27 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 6ms
+
+Started POST "/word_analysis" at 2018-11-25 21:48:34 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 31ms
+
+Started POST "/word_analysis" at 2018-11-25 21:49:05 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 6ms
+
+Started POST "/word_analysis" at 2018-11-25 21:49:06 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 21:49:14 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 3ms
+
+Started POST "/word_analysis" at 2018-11-25 21:50:02 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 34ms
+
+Started POST "/word_analysis" at 2018-11-25 21:57:12 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 29ms
+
+Started POST "/word_analysis" at 2018-11-25 21:57:24 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 21:57:44 +8
+Completed 415 Unsupported Media Type in 38ms
+
+Started POST "/word_analysis" at 2018-11-25 21:59:35 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 29ms
+
+Started POST "/word_analysis" at 2018-11-25 22:00:00 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 29ms
+
+Started POST "/word_analysis" at 2018-11-25 22:00:35 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 28ms
+
+Started POST "/word_analysis" at 2018-11-25 22:00:41 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 22:00:46 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 22:01:21 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 30ms
+
+Started POST "/word_analysis" at 2018-11-25 22:06:08 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 22:06:58 +8
+Completed 415 Unsupported Media Type in 38ms
+
+Started POST "/word_analysis" at 2018-11-25 22:07:17 +8
+Completed 415 Unsupported Media Type in 38ms
+
+Started POST "/word_analysis" at 2018-11-25 22:08:02 +8
+Completed 415 Unsupported Media Type in 39ms
+
+Started POST "/word_analysis" at 2018-11-25 22:08:57 +8
+Completed 415 Unsupported Media Type in 38ms
+
+Started POST "/word_analysis" at 2018-11-25 22:10:36 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 22:12:02 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 22:12:24 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 22:13:24 +8
+Completed 415 Unsupported Media Type in 5ms
+
+Started POST "/word_analysis" at 2018-11-25 22:13:33 +8
+Completed 415 Unsupported Media Type in 35ms
+
+Started POST "/word_analysis" at 2018-11-25 22:14:03 +8
+Completed 415 Unsupported Media Type in 38ms
+
+Started POST "/word_analysis" at 2018-11-25 22:14:40 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 22:15:14 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 22:17:49 +8
+Completed 415 Unsupported Media Type in 35ms
+
+Started POST "/word_analysis" at 2018-11-25 22:18:12 +8
+Completed 415 Unsupported Media Type in 38ms
+
+Started POST "/word_analysis" at 2018-11-25 22:18:30 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 22:18:44 +8
+Completed 415 Unsupported Media Type in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 22:20:49 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 22:25:05 +8
+Completed 415 Unsupported Media Type in 38ms
+
+Started POST "/word_analysis" at 2018-11-25 22:25:28 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 22:26:20 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 22:27:35 +8
+Completed 415 Unsupported Media Type in 37ms
+
+Started POST "/word_analysis" at 2018-11-25 22:28:30 +8
+Completed 415 Unsupported Media Type in 38ms
+
+Started POST "/word_analysis" at 2018-11-25 22:29:15 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 22:29:32 +8
+Completed 415 Unsupported Media Type in 40ms
+
+Started POST "/word_analysis" at 2018-11-25 22:32:58 +8
+Completed 415 Unsupported Media Type in 36ms
+
+Started POST "/word_analysis" at 2018-11-25 22:33:27 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 16ms
+
+Started POST "/word_analysis" at 2018-11-25 22:35:20 +8
+Completed 415 Unsupported Media Type in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 22:35:31 +8
+Completed 415 Unsupported Media Type in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 22:36:02 +8
+Processing by WordAnalysisController#create
+  Parameters: {}
+Completed 200 OK in 45ms
+
+Started POST "/word_analysis" at 2018-11-25 22:36:19 +8
+Processing by WordAnalysisController#create
+  Parameters: {"------WebKitFormBoundaryfW07P5tYj1YpJMad\r\nContent-Disposition: form-data; name":"\"aaa\"\r\n\r\n123\r\n------WebKitFormBoundaryfW07P5tYj1YpJMad--\r\n"}
+Completed 200 OK in 7ms
+
+Started POST "/word_analysis" at 2018-11-25 22:36:34 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 22:38:20 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 3ms
+
+Started POST "/word_analysis" at 2018-11-25 22:38:26 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 8ms
+
+Started POST "/word_analysis" at 2018-11-25 22:38:47 +8
+Processing by WordAnalysisController#create
+  Parameters: {"aaa":"123"}
+Completed 200 OK in 4ms
+
+Started POST "/word_analysis" at 2018-11-25 22:39:00 +8
+Processing by WordAnalysisController#create
+  Parameters: {"{\"abcd\": 123}":""}
+Completed 200 OK in 3ms
+
+Started POST "/word_analysis" at 2018-11-25 22:39:31 +8
+Processing by WordAnalysisController#create
+  Parameters: {"abcd":123}
+Completed 200 OK in 3ms
+

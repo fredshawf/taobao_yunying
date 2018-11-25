@@ -51,11 +51,9 @@
 //   })
 // })
 
-module.exports = function() {  
+module.exports = function() {
   
-  this.resources('test');
-  
-  
+  this.resources('word_analysis')
   
 
 }
