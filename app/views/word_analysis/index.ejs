@@ -1,5 +1,26 @@
 <form class="" action="/word_analysis" method="POST">
-  <textarea name="name" rows="8" cols="80"></textarea>
+  <textarea name="article" rows="8" cols="80"><%= article %></textarea>
   
   <input type="submit" name="" value="提交">
 </form>
+
+<br>
+
+<table>
+  <tr>
+    <th>序号</th>
+    <th>字词</th>
+    <th>频次</th>
+    <th>频率%</th>
+  </tr>
+    
+  <% words.forEach(function(e, i) { %>
+    <tr>
+      <td><%= i+1 %></td>
+      <td><%= e[0] %></td>
+      <td><%= e[1] %></td>
+      <td><%= e[1]/words.length * 100 %></td>
+    </tr>
+  <% }) %>
+  
+</table>
