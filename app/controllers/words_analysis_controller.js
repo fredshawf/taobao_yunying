@@ -1,12 +1,12 @@
 nodejieba = require("nodejieba");
 
-module.exports = class WordAnalysisController {
+module.exports = class WordsAnalysisController {
   
   async index() {
     let article = this.params['article'] || '';
     let words = this.params['words'] || [];
     
-    await this.render('word_analysis/index', {article: article, words: words});
+    await this.render('words_analysis/index', {article: article, words: words});
   }
   
   

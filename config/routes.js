@@ -53,7 +53,9 @@
 
 module.exports = function() {
   
-  this.resources('word_analysis')
+  this.resources('words_analysis');
+  
+  this.resources('top20_words');
   
 
 }
