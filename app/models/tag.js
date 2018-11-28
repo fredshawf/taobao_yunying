@@ -3,7 +3,13 @@ module.exports = class tag extends Model {
       return 'tags';
   }
   
-  
+  $beforeInsert() {
+    this.created_at = new Date().toLocaleString();
+  }
+
+  $beforeUpdate() {
+    this.updated_at = new Date().toLocaleString();
+  }
   
   
 }

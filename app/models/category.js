@@ -30,6 +30,14 @@ module.exports = class Category extends Model {
     };
   }
   
+  $beforeInsert() {
+    this.created_at = new Date().toLocaleString();
+  }
+
+  $beforeUpdate() {
+    this.updated_at = new Date().toLocaleString();
+  }
+  
   
   
   
