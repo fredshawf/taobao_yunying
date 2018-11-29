@@ -2,7 +2,7 @@ module.exports = class Top20WordsController {
   
   async index() {
     
-    this.ctx.body = 123123
+    await this.render('top20_words/index', {});
     
   }
   
