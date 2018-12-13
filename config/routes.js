@@ -55,7 +55,15 @@ module.exports = function() {
   
   this.resources('words_analysis');
   
-  this.resources('top20_words');
+  
+  this.namespace('top20_words', function() {
+    this.get('/', 'Top20Words.categories#index');
+    this.resources('upload')
+    this.resources('categories', function() {
+      this.resources('words');
+    });
+  })
+  
   
 
 }

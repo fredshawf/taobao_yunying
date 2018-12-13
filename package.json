@@ -30,7 +30,7 @@
     "knex": "^0.15.2",
     "knex-migrate": "^1.7.0",
     "koa": "^2.5.2",
-    "koa-actionpack": "^1.0.0",
+    "koa-actionpack": "^1.0.1",
     "koa-body": "^4.0.4",
     "koa-bodyparser": "^4.2.1",
     "koa-conditional-get": "^2.0.0",
