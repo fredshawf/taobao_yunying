@@ -23,6 +23,7 @@
   "dependencies": {
     "bluebird": "^3.5.3",
     "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
     "class-autoloader": "^1.0.3",
     "co-body": "^6.0.0",
     "commander": "^2.18.0",
@@ -46,6 +47,8 @@
     "mysql2": "^1.6.1",
     "nodejieba": "^2.3.0",
     "objection": "^1.4.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
     "require-directory": "^2.1.1",
     "winston": "^3.1.0",
     "winston-daily-rotate-file": "^3.3.2",
