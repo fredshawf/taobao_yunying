@@ -1,0 +1,82 @@
+<html lang="zh-CN"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/assets/stylesheets/application.css" rel="stylesheet">
+
+    <script src="/assets/javascripts/jquery-3.3.1.min.js"></script>
+    <script src="/assets/javascripts/bootstrap.min.js"></script>
+    <script src="/assets/javascripts/bootstrap-treeview.min.js"></script>
+    <script src="/assets/javascripts/application.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        let url_prefix = "/search_suggestions?keyword="
+        $("#search_suggestions_btn").click(function(){
+          let keyword = $("#search_suggestions_input").val();
+          let url = url_prefix + keyword
+          $.get(url,function(data){
+            $("#top20_words").html(data);
+            
+          })
+          return false;
+        })
+        $.get
+        
+      });
+    </script>
+    
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">搜索相关关键字</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">查询关键字</label>
+              <input type="input" class="form-control" id="search_suggestions_input" placeholder="关键字">
+            </div>
+            
+            <button id="search_suggestions_btn" type="submit" class="btn btn-default">查询</button>
+          </form>
+        </div>
+        
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">词汇</h1>
+          <div id="top20_words" class="table-responsive">
+            <!-- 存放tags的区域 -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

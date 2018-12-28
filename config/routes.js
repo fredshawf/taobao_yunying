@@ -63,6 +63,6 @@ module.exports = function() {
     });
   })
   
-  
+  this.resources('search_suggestions');
 
 }
